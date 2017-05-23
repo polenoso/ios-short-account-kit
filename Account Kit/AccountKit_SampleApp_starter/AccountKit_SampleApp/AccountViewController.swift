@@ -30,7 +30,7 @@ class AccountViewController: UIViewController {
     @IBOutlet weak var valueLabel: UILabel!
     
     // MARK: Properties
-    
+    fileprivate var accountKit = AKFAccountKit(responseType: .accessToken)
     // TODO: Add the accountKit variable as a property.
     
     // MARK: View Life Cycle
@@ -40,7 +40,23 @@ class AccountViewController: UIViewController {
         applyStyling()
         
         // TODO: Use the accountKit property to request an account object.
-        
+        accountKit.requestAccount{[weak self] (account,error) in
+             if let error = error {
+                self?.accountIDLabel.text = "N/A"
+                self?.titleLabel.text = "Error"
+                self?.valueLabel.text = error.localizedDescription
+             }else{
+                self?.accountIDLabel.text = account?.accountID
+                
+                if let emailAddress = account?.emailAddress, emailAddress.characters.count > 0 {
+                    self?.titleLabel.text = "Email Address"
+                    self?.valueLabel.text = emailAddress
+                }else if let phoneNumber = account?.phoneNumber{
+                    self?.titleLabel.text = "Phone Number"
+                    self?.valueLabel.text = phoneNumber.stringRepresentation()
+                }
+             }
+        }
         // TODO: Populate UILabels for the following cases: error returned, 
         // account ID with email, account ID with phone number
         
@@ -60,5 +76,9 @@ class AccountViewController: UIViewController {
     // MARK: Actions
     
     // TODO: Add the IBAction, logOut(_ sender:)
+    @IBAction func logOut(_ sender: AnyObject){
+        accountKit.logOut()
+        let _ = navigationController?.popToRootViewController(animated: true)
+    }
     
 }

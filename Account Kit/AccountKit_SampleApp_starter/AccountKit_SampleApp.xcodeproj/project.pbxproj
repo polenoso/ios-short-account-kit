@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7560FCB91ECC69D7007EEB72 /* AccountKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7560FCB71ECC69D7007EEB72 /* AccountKit.framework */; };
+		7560FCBA1ECC69D7007EEB72 /* AccountKitStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7560FCB81ECC69D7007EEB72 /* AccountKitStrings.bundle */; };
+		7560FCBC1ECC9847007EEB72 /* UIColor+CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7560FCBB1ECC9847007EEB72 /* UIColor+CustomColors.swift */; };
+		7560FCC61ECC9F61007EEB72 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7560FCBD1ECC9F61007EEB72 /* Bolts.framework */; };
+		7560FCC71ECC9F61007EEB72 /* FacebookSDKStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7560FCBE1ECC9F61007EEB72 /* FacebookSDKStrings.bundle */; };
+		7560FCC81ECC9F61007EEB72 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7560FCBF1ECC9F61007EEB72 /* FBAudienceNetwork.framework */; };
+		7560FCC91ECC9F61007EEB72 /* FBNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7560FCC01ECC9F61007EEB72 /* FBNotifications.framework */; };
+		7560FCCA1ECC9F61007EEB72 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7560FCC11ECC9F61007EEB72 /* FBSDKCoreKit.framework */; };
+		7560FCCB1ECC9F61007EEB72 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7560FCC21ECC9F61007EEB72 /* FBSDKLoginKit.framework */; };
+		7560FCCC1ECC9F61007EEB72 /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7560FCC31ECC9F61007EEB72 /* FBSDKMessengerShareKit.framework */; };
+		7560FCCD1ECC9F61007EEB72 /* FBSDKPlacesKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7560FCC41ECC9F61007EEB72 /* FBSDKPlacesKit.framework */; };
+		7560FCCE1ECC9F61007EEB72 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7560FCC51ECC9F61007EEB72 /* FBSDKShareKit.framework */; };
 		A925EC3F1E268EE300BAEB0C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A925EC3D1E268EE300BAEB0C /* LaunchScreen.xib */; };
 		ED0496D21DEE4E2300D90B9C /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0496D11DEE4E2300D90B9C /* AccountViewController.swift */; };
 		ED0496D41DEE76E700D90B9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED0496D31DEE76E700D90B9C /* Main.storyboard */; };
@@ -34,6 +46,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7560FCB71ECC69D7007EEB72 /* AccountKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AccountKit.framework; sourceTree = "<group>"; };
+		7560FCB81ECC69D7007EEB72 /* AccountKitStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AccountKitStrings.bundle; sourceTree = "<group>"; };
+		7560FCBB1ECC9847007EEB72 /* UIColor+CustomColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+CustomColors.swift"; sourceTree = "<group>"; };
+		7560FCBD1ECC9F61007EEB72 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		7560FCBE1ECC9F61007EEB72 /* FacebookSDKStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FacebookSDKStrings.bundle; sourceTree = "<group>"; };
+		7560FCBF1ECC9F61007EEB72 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		7560FCC01ECC9F61007EEB72 /* FBNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBNotifications.framework; sourceTree = "<group>"; };
+		7560FCC11ECC9F61007EEB72 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		7560FCC21ECC9F61007EEB72 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		7560FCC31ECC9F61007EEB72 /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKMessengerShareKit.framework; sourceTree = "<group>"; };
+		7560FCC41ECC9F61007EEB72 /* FBSDKPlacesKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKPlacesKit.framework; sourceTree = "<group>"; };
+		7560FCC51ECC9F61007EEB72 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
 		A925EC3E1E268EE300BAEB0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		ED0496D11DEE4E2300D90B9C /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		ED0496D31DEE76E700D90B9C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -52,6 +76,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7560FCCA1ECC9F61007EEB72 /* FBSDKCoreKit.framework in Frameworks */,
+				7560FCC81ECC9F61007EEB72 /* FBAudienceNetwork.framework in Frameworks */,
+				7560FCCB1ECC9F61007EEB72 /* FBSDKLoginKit.framework in Frameworks */,
+				7560FCB91ECC69D7007EEB72 /* AccountKit.framework in Frameworks */,
+				7560FCC61ECC9F61007EEB72 /* Bolts.framework in Frameworks */,
+				7560FCCE1ECC9F61007EEB72 /* FBSDKShareKit.framework in Frameworks */,
+				7560FCC91ECC9F61007EEB72 /* FBNotifications.framework in Frameworks */,
+				7560FCCD1ECC9F61007EEB72 /* FBSDKPlacesKit.framework in Frameworks */,
+				7560FCCC1ECC9F61007EEB72 /* FBSDKMessengerShareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +128,17 @@
 			children = (
 				ED7EDDE51DEB5B5B00E62017 /* AccountKit_SampleApp */,
 				ED7EDDE41DEB5B5B00E62017 /* Products */,
+				7560FCBD1ECC9F61007EEB72 /* Bolts.framework */,
+				7560FCBE1ECC9F61007EEB72 /* FacebookSDKStrings.bundle */,
+				7560FCBF1ECC9F61007EEB72 /* FBAudienceNetwork.framework */,
+				7560FCC01ECC9F61007EEB72 /* FBNotifications.framework */,
+				7560FCC11ECC9F61007EEB72 /* FBSDKCoreKit.framework */,
+				7560FCC21ECC9F61007EEB72 /* FBSDKLoginKit.framework */,
+				7560FCC31ECC9F61007EEB72 /* FBSDKMessengerShareKit.framework */,
+				7560FCC41ECC9F61007EEB72 /* FBSDKPlacesKit.framework */,
+				7560FCC51ECC9F61007EEB72 /* FBSDKShareKit.framework */,
+				7560FCB71ECC69D7007EEB72 /* AccountKit.framework */,
+				7560FCB81ECC69D7007EEB72 /* AccountKitStrings.bundle */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +155,7 @@
 		ED7EDDE51DEB5B5B00E62017 /* AccountKit_SampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				7560FCBB1ECC9847007EEB72 /* UIColor+CustomColors.swift */,
 				ED7EDDE61DEB5B5B00E62017 /* AppDelegate.swift */,
 				ED7EDDE81DEB5B5B00E62017 /* LoginViewController.swift */,
 				ED0496D11DEE4E2300D90B9C /* AccountViewController.swift */,
@@ -231,8 +276,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A925EC3F1E268EE300BAEB0C /* LaunchScreen.xib in Resources */,
+				7560FCC71ECC9F61007EEB72 /* FacebookSDKStrings.bundle in Resources */,
 				ED7EDDEE1DEB5B5B00E62017 /* Assets.xcassets in Resources */,
 				ED0496D41DEE76E700D90B9C /* Main.storyboard in Resources */,
+				7560FCBA1ECC69D7007EEB72 /* AccountKitStrings.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED7EDDE91DEB5B5B00E62017 /* LoginViewController.swift in Sources */,
+				7560FCBC1ECC9847007EEB72 /* UIColor+CustomColors.swift in Sources */,
 				ED7EDDE71DEB5B5B00E62017 /* AppDelegate.swift in Sources */,
 				ED0496D21DEE4E2300D90B9C /* AccountViewController.swift in Sources */,
 				ED9D19D21E24848500AFFD04 /* UILabel+TextSpacing.swift in Sources */,
